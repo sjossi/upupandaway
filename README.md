@@ -22,6 +22,18 @@ firmware than polishing the utility. I also expect people that do research to
 be able to handle a bit of code, even in a foreign language (I try my best to
 write clean and readable code.)
 
+# Running
+
+Currently `main()` runs the equivalent of a manual "extract all". It needs a
+path to an unpacked .up file. It's the folder with `main_instructions.ini` in
+it.
+
+
+# Tests
+
+Currently the go tests as well as it's supporting files cannot be distributed
+since I'm using live test files.
+
 
 # TODO
 
@@ -34,6 +46,7 @@ write clean and readable code.)
     * Execute in isolated environment (Docker?) and then move files?
 * [ ] Check hashes where provided
 * [ ] Repacking
+* [ ] Replace test files with synthetic data
 
 *CLI*
 
